@@ -24,3 +24,4 @@ jobs:
           context: .
           push: true
           tags: khanhyder4/cloudlens-frontend:latest
+ 
