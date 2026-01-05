@@ -1,11 +1,11 @@
 {
-  "name": "cloudlens-backend",
+  "name": "cloudlens-frontend",
   "version": "1.0.0",
-  "main": "server.js",
+  "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "serve -s public"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "serve": "^14.2.0"
   }
 }
